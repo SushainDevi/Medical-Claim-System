@@ -129,14 +129,6 @@ curl -X POST "http://localhost:8000/api/v1/upload" \
 
 ---
 
-## Contributing  
-1. Fork the repository.  
-2. Create a feature branch (`git checkout -b feature/foo`).  
-3. Commit changes (`git commit -m "Add feature"`).  
-4. Push and open a pull request.  
-
----
-
 ## License  
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.  
 
