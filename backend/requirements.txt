@@ -1,0 +1,33 @@
+# FastAPI Framework
+fastapi==0.104.1  # Updated to support Pydantic v2
+uvicorn==0.23.2
+
+# File Upload Handling
+python-multipart==0.0.6
+
+# Database Integration (PostgreSQL)
+sqlalchemy==2.0.19
+psycopg2-binary==2.9.7
+alembic==1.12.0  # For database migrations
+
+# Pydantic (Data Validation)
+pydantic==2.4.2
+
+# OCR Processing
+pytesseract==0.3.10
+pdf2image==1.16.3
+opencv-python==4.8.1.78
+numpy==1.23.5  # Required by OpenCV
+
+# AWS S3 Integration
+boto3==1.28.59
+
+# Machine Learning (Optional for Fraud Detection)
+scikit-learn==1.3.2
+
+# Testing
+pytest==7.4.2
+httpx==0.24.1  # For testing API endpoints
+
+# Logging and Monitoring
+loguru==0.7.0  # Simplified logging library
